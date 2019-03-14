@@ -7,5 +7,4 @@ const rootDom = document.createElement('div');
 rootDom.id = 'root';
 document.body.append(rootDom);
 
-
 ReactDOM.render(<App/>, document.querySelector('#root'));

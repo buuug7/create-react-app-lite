@@ -4,4 +4,19 @@ Create react app from zero, it just a starting point of your react development.
 
 ## Usage
 
-clone the repository, run `npm install`, and then begin your work with `npm run start` or build it use `npm run build`.
+```bash
+# clone repository
+git clone https://github.com/buuug7/create-react-app-lite.git my-app-name
+
+# change directory to my-app-name
+cd my-app-name
+
+# install dependencies
+npm install
+
+# start work
+npm run start
+
+# or build
+npm run build
+```

@@ -1,7 +1,7 @@
 {
   "name": "create-react-app-lite",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create react app from zero",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
