@@ -1,5 +1,8 @@
 import React from 'react';
-import HelloWorld from './components/HelloWorld'
+
+import AddTodo from './components/AddTodo';
+import TodoList from './components/TodoList';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   constructor (props) {
@@ -9,7 +12,9 @@ class App extends React.Component {
   render () {
     return (
       <div className="App">
-        <HelloWorld />
+        <AddTodo/>
+        <TodoList/>
+        <Footer />
       </div>
     );
   }
