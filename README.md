@@ -1,6 +1,6 @@
 # Create React App Lite
 
-Create react app from zero, it just a starting point of your react development.
+Create react app from zero, a start point of your react development.
 
 ## Usage
 
