@@ -1,12 +1,12 @@
 import React from 'react';
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from './components/HelloWorld';
 
 class App extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
   }
 
-  render () {
+  render() {
     return (
       <div className="App">
         <HelloWorld />

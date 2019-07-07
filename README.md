@@ -23,6 +23,10 @@ npm run build
 
 ## Structure
 
-+ `src` your source code, which will take care of by webpack
-+ `static` the static files, which did not processed by webpack
-+ `dist` the output directory 
+- `src` your source code, which will take care of by webpack
+- `static` the static files, which did not processed by webpack
+- `dist` the output directory
+
+## Format code with prettier
+
+use [prettier](https://prettier.io/) as code formatter. auto format code before every commit by [husky](https://github.com/typicode/husky) git hooks.

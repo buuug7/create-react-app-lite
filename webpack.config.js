@@ -7,7 +7,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'create react app lite',
       meta: {
-        viewport: 'width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'
+        viewport:
+          'width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'
       }
     })
   ],
@@ -21,10 +22,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         options: {
-          presets: [
-            '@babel/preset-env',
-            '@babel/preset-react'
-          ]
+          presets: ['@babel/preset-env', '@babel/preset-react']
         }
       }
     ]
