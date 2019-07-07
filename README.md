@@ -1,6 +1,6 @@
 # Create React App Lite
 
-Create react app from zero, a start point of your react development.
+An start point of your react development.
 
 ## Usage
 
@@ -20,3 +20,9 @@ npm run start
 # or build
 npm run build
 ```
+
+## Structure
+
++ `src` your source code, which will take care of by webpack
++ `static` the static files, which did not processed by webpack
++ `dist` the output directory 

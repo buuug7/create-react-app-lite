@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 function HelloWorld () {
+
+  const [data, setData] = useState({
+    name: '',
+    description: ''
+  });
+
+  useEffect(() => {
+    fetch('/data.json').then(res => res.json())
+    .then(json => setData(json))
+  } ,[])
+
   return (
     <div className='HelloWorld'>
-      <h4 style={{ textAlign: 'center' }}>Create React App Lite</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci asperiores distinctio enim esse fuga illo
-        inventore ipsam ipsum iste modi mollitia natus necessitatibus odio, officia quisquam reprehenderit rerum
-        sequi?
-      </p>
+      <h4 style={{ textAlign: 'center' }}>{data.name}</h4>
+      <p>{data.description}</p>
     </div>
   );
 }
