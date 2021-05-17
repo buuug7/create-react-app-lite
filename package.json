@@ -1,20 +1,11 @@
 {
   "name": "create-react-app-lite",
   "version": "1.3.0",
-  "description": "Create react app from zero",
+  "description": "A start point of your react development.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "build": "webpack --mode production",
-    "pretty-quick": "pretty-quick"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
-  "prettier": {
-    "singleQuote": true
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "create react app lite"
@@ -22,22 +13,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-react": "^7.6.3",
-    "babel-loader": "^8.0.6",
-    "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^5.0.4",
-    "html-webpack-plugin": "^3.2.0",
-    "husky": "^3.0.9",
-    "prettier": "^1.18.2",
-    "pretty-quick": "^2.0.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.1",
+    "html-webpack-plugin": "^5.3.1",
+    "prettier": "^2.3.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
