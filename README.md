@@ -1,6 +1,6 @@
 # Create React App Lite
 
-An start point of your react development.
+A start point of your react development.
 
 ## Usage
 
