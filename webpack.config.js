@@ -33,8 +33,10 @@ module.exports = {
     }),
   ],
   devServer: {
-    // contentBase: [path.join(__dirname, 'static')],
-    publicPath: PUBLIC_PATH
+    port: 3000,
+    devMiddleware: {
+      publicPath: PUBLIC_PATH,
+    }
   },
   module: {
     rules: [
